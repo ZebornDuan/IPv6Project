@@ -1,0 +1,362 @@
+{
+    "49152": {
+        "serviceData": [
+            794811, 
+            434552, 
+            83895, 
+            29334, 
+            3047, 
+            655
+        ], 
+        "serviceKey": [
+            "unknown", 
+            "msrpc", 
+            "upnp", 
+            "tcpwrapped", 
+            "http", 
+            "bandwidth-test"
+        ]
+    }, 
+    "8080": {
+        "serviceData": [
+            1333264, 
+            890600, 
+            522611, 
+            74428, 
+            9684, 
+            2768
+        ], 
+        "serviceKey": [
+            "http", 
+            "http-proxy", 
+            "unknown", 
+            "tcpwrapped", 
+            "https", 
+            "rtsp"
+        ]
+    }, 
+    "5060": {
+        "serviceData": [
+            1226708, 
+            221281, 
+            168444, 
+            6709, 
+            1185, 
+            993
+        ], 
+        "serviceKey": [
+            "sip", 
+            "unknown", 
+            "tcpwrapped", 
+            "https", 
+            "sip-proxy", 
+            "http"
+        ]
+    }, 
+    "1701": {
+        "serviceData": [
+            3859433, 
+            1857, 
+            702, 
+            556, 
+            55, 
+            13
+        ], 
+        "serviceKey": [
+            "l2tp", 
+            "tcpwrapped", 
+            "l2f", 
+            "unknown", 
+            "http", 
+            "http-proxy"
+        ]
+    }, 
+    "3306": {
+        "serviceData": [
+            1113643, 
+            198052, 
+            120645, 
+            2673, 
+            825, 
+            65
+        ], 
+        "serviceKey": [
+            "mysql", 
+            "unknown", 
+            "tcpwrapped", 
+            "https", 
+            "http", 
+            "nagios-nsca"
+        ]
+    }, 
+    "49153": {
+        "serviceData": [
+            630604, 
+            565017, 
+            40127, 
+            15438, 
+            11595, 
+            372
+        ], 
+        "serviceKey": [
+            "unknown", 
+            "msrpc", 
+            "tcpwrapped", 
+            "upnp", 
+            "http", 
+            "bandwidth-test"
+        ]
+    }, 
+    "554": {
+        "serviceData": [
+            1239715, 
+            171332, 
+            64362, 
+            11012, 
+            374, 
+            132
+        ], 
+        "serviceKey": [
+            "rtsp", 
+            "unknown", 
+            "tcpwrapped", 
+            "http", 
+            "http-proxy", 
+            "https"
+        ]
+    }, 
+    "110": {
+        "serviceData": [
+            1051212, 
+            199768, 
+            68471, 
+            2110, 
+            176, 
+            101
+        ], 
+        "serviceKey": [
+            "pop3", 
+            "unknown", 
+            "tcpwrapped", 
+            "http", 
+            "pop3-proxy", 
+            "ssh"
+        ]
+    }, 
+    "143": {
+        "serviceData": [
+            964923, 
+            200786, 
+            60042, 
+            1768, 
+            1131, 
+            628
+        ], 
+        "serviceKey": [
+            "imap", 
+            "unknown", 
+            "tcpwrapped", 
+            "http", 
+            "imap-proxy", 
+            "nagios-nsca"
+        ]
+    }, 
+    "80": {
+        "serviceData": [
+            35818890, 
+            1498119, 
+            472535, 
+            170986, 
+            127933, 
+            61551
+        ], 
+        "serviceKey": [
+            "http", 
+            "unknown", 
+            "", 
+            "http-proxy", 
+            "tcpwrapped", 
+            "rtsp"
+        ]
+    }, 
+    "81": {
+        "serviceData": [
+            633361, 
+            264113, 
+            221464, 
+            69783, 
+            4133, 
+            2130
+        ], 
+        "serviceKey": [
+            "hosts2-ns", 
+            "http", 
+            "unknown", 
+            "tcpwrapped", 
+            "rtsp", 
+            "ssh"
+        ]
+    }, 
+    "500": {
+        "serviceData": [
+            2786350, 
+            689614, 
+            63118, 
+            1619, 
+            627, 
+            189
+        ], 
+        "serviceKey": [
+            "isakmp", 
+            "unknown", 
+            "tcpwrapped", 
+            "ericssontimestep", 
+            "http", 
+            "https"
+        ]
+    }, 
+    "21": {
+        "serviceData": [
+            1818777, 
+            296173, 
+            190884, 
+            1651, 
+            393, 
+            294
+        ], 
+        "serviceKey": [
+            "ftp", 
+            "tcpwrapped", 
+            "unknown", 
+            "https", 
+            "http", 
+            "ssh"
+        ]
+    }, 
+    "22": {
+        "serviceData": [
+            2835869, 
+            328098, 
+            146457, 
+            3667, 
+            1512, 
+            1489
+        ], 
+        "serviceKey": [
+            "ssh", 
+            "unknown", 
+            "tcpwrapped", 
+            "vnc", 
+            "ftp", 
+            "http"
+        ]
+    }, 
+    "23": {
+        "serviceData": [
+            1331148, 
+            59609, 
+            4141, 
+            2912, 
+            1648, 
+            516
+        ], 
+        "serviceKey": [
+            "telnet", 
+            "unknown", 
+            "tcpwrapped", 
+            "landesk-rc", 
+            "ssh", 
+            "ftp"
+        ]
+    }, 
+    "8888": {
+        "serviceData": [
+            584132, 
+            488857, 
+            276569, 
+            44571, 
+            4765, 
+            4748
+        ], 
+        "serviceKey": [
+            "http", 
+            "sun-answerbook", 
+            "unknown", 
+            "tcpwrapped", 
+            "upnp", 
+            "http-proxy"
+        ]
+    }, 
+    "25": {
+        "serviceData": [
+            1225632, 
+            194756, 
+            13349, 
+            5066, 
+            189, 
+            117
+        ], 
+        "serviceKey": [
+            "smtp", 
+            "unknown", 
+            "tcpwrapped", 
+            "http", 
+            "nagios-nsca", 
+            "smtp-proxy"
+        ]
+    }, 
+    "443": {
+        "serviceData": [
+            28792036, 
+            3052763, 
+            483902, 
+            258989, 
+            37190, 
+            22182
+        ], 
+        "serviceKey": [
+            "https", 
+            "unknown", 
+            "", 
+            "tcpwrapped", 
+            "http", 
+            "http-proxy"
+        ]
+    }, 
+    "3389": {
+        "serviceData": [
+            1817436, 
+            607690, 
+            136250, 
+            16248, 
+            9585, 
+            6128
+        ], 
+        "serviceKey": [
+            "rdp", 
+            "unknown", 
+            "tcpwrapped", 
+            "http", 
+            "ssl", 
+            "https"
+        ]
+    }, 
+    "53": {
+        "serviceData": [
+            1985762, 
+            219562, 
+            63790, 
+            269, 
+            101, 
+            55
+        ], 
+        "serviceKey": [
+            "domain", 
+            "unknown", 
+            "tcpwrapped", 
+            "http", 
+            "ssh", 
+            "echo"
+        ]
+    }
+}

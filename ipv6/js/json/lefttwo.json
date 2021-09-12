@@ -1,0 +1,26 @@
+{
+    "cityList": [
+        "united states", 
+        "China", 
+        "russia", 
+        "india", 
+        "ireland", 
+        "germany", 
+        "united kingdom", 
+        "denmark", 
+        "myanmar", 
+        "England"
+    ], 
+    "cityData": [
+        353348606, 
+        337657354, 
+        16879141, 
+        14764024, 
+        7663796, 
+        6648943, 
+        5797091, 
+        5512023, 
+        5463219, 
+        4301900
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "seriesData": [
+        {
+            "name": "linux", 
+            "value": 31149756
+        }, 
+        {
+            "name": "ipxe", 
+            "value": 3861944
+        }, 
+        {
+            "name": "windows", 
+            "value": 2559898
+        }, 
+        {
+            "name": "embedded", 
+            "value": 1465552
+        }, 
+        {
+            "name": "netware", 
+            "value": 696269
+        }
+    ]
+}

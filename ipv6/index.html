@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>清华大学 - 网络资产探测系统</title>
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+        <div class="nicescroll" style="height: 100%;">
+            <div class="m-screen-browse boxSizing">
+                <div class="header display-flex justify-content-space-between PingFangTC-Light">
+                    <div class="header-cur-loc"><span>当前位置</span><span class="header-point">:</span><span>世界</span></div>
+                    <div class="heaer-time"><span>当前日期</span><span class="header-point">:</span><span id="head-date"></span></div>
+                </div>
+                <div class="m-main display-flex justify-content-space-between">
+                    <div class="m-left relative">
+                        <div class="m-left-1 boxSizing">
+                            <div class="tilte-bg-color marginBottom14">
+                                <div class="m-title PingFangTC-Light">
+                                    <div class="title-name"><i></i><span>全球IPv6活跃地址变化</span></div>
+                                </div>
+                            </div>
+                            <div class="left-1-main padding2 boxSizing">
+                                <div class="transparent-bg paddingTop20 paddingBottom20 boxSizing">
+                                    <div class="total-time relative display-flex justify-content-left align-items-center marginLeft40 PingFangTC-Light">
+                                        <span class="arrow"></span>
+                                        <span class="m-date-left" id="date-left"></span>
+                                        <span>，全球IPv6活跃地址总数为</span>
+                                        <span id="total-left" class="total-txt paddingLeft10 GothamMedium"></span>
+                                    </div>
+                                    <div id="left-one-chart" style="height: 396px"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-left-2 boxSizing">
+                            <div class="tilte-bg-color marginBottom14">
+                                <div class="m-title PingFangTC-Light">
+                                    <div class="title-name"><i></i><span>各国现存IPv6地址数量排行</span></div>
+                                </div>
+                            </div>
+                            <div class="left-2-main left-padding boxSizing GothamMedium" style="padding-left: 30px">
+                                <div id="left-two-chart" style="height: 861px;"></div>
+                            </div>
+                        </div>
+                        <div class="search marginTop53 display-flex justify-content-space-between">
+                            <input class="search-input boxSizing" type="text" placeholder="Search Domain,IP,Host..." />
+                            <div class="search-input-icon"></div>
+                        </div>
+                    </div>
+                    <div class="m-middle relative">
+                        <div id="center-middle-list" class="m-icon-tab display-flex">
+                            <div id="refresh" class="refresh marginRight20" style="border: 1px solid #6e7b8c;"></div>
+                            <div id="3dmap" class="map-icon" res="3d" style="border-right:0;"></div>
+                            <div id="worldmap" res="world" class="three-icon current"></div>
+                        </div>
+                        <div class="middle-tile">
+                            <div class="total-flex display-flex justify-content-space-between align-items-center">
+                                <div class="total-list">
+                                    <p id="activeTotal" class="total-1 mid-total-bg"></p>
+                                    <p class="mid-total-txt color-gree">IPv6活跃地址总数</p>
+                                </div>
+                                <div class="total-list">
+                                    <p id="total" class="total-2 mid-total-bg"></p>
+                                    <p class="mid-total-txt color-gree">IPv6地址总数</p>
+                                </div>
+                                <div class="total-list">
+                                    <p id="todayTotal" class="total-3 mid-total-bg"></p>
+                                    <p class="mid-total-txt color-gree">当日发现地址总数</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="map-chart" style="width: 95%; height: 1546px;margin: auto;"></div>
+                        <div id="midScroll" class="scroll-new boxSizing color-gree">
+                            <ul style="position: absolute;"></ul>
+                        </div>
+                    </div>
+                    <div class="m-right relative">
+                        <div class="m-right-1 paddingRight47">
+                            <div class="right-tilte-bg-color marginBottom30">
+                                <div class="m-title PingFangTC-Light">
+                                    <div class="title-name"><i></i><span>各国现存活跃地址对比</span></div>
+                                </div>
+                            </div>
+                            <div class="right-1-main boxSizing" style="padding-top: 0">
+                                <div id='selectList' class="total-time relative marginLeft40 display-flex justify-content-space-between GothamMedium" style="margin-right: 40px;">
+                                    
+                                </div>
+                                <div id="right-one-chart" style="height: 440px"></div>
+                            </div>
+                        </div>
+                        <div class="paddingRight47 marginTop80">
+                            <div class="right-tilte-bg-color marginBottom14">
+                                <div class="m-title PingFangTC-Light">
+                                    <div class="title-name"><i></i><span>IPv6地址AS分布情况</span></div>
+                                </div>
+                            </div>
+                            <div class="right-2-main padding2 boxSizing">
+                                <div class="transparent-bg">
+                                    <div id="right-2-select" class="total-time relative left-padding boxSizing display-flex justify-content-space-between" style="margin-left: 40px;padding-left:0;padding-top: 30px;">
+                                        
+                                    </div>
+                                    <div id="right-two-chart" class="Gotham-Book" style="height: 332px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-right-3">
+                            <div class="right-tilte-bg-color marginBottom14">
+                                <div class="m-title PingFangTC-Light">
+                                    <div class="title-name"><i></i><span>IPv6地址BGP分布情况</span></div>
+                                </div>
+                            </div>
+                            <div class="right-3-main padding2 boxSizing">
+                                <div class="transparent-bg">
+                                    <div class="display-flex justify-content-flex-end relative left-padding boxSizing" style="padding: 30px 40px 0px 40px;">
+                                        <div id="page-upper" class="arrow-upper page-bg"><i></i></div>
+                                        <div id="page-next" class="arrow-next page-bg"><i></i></div>
+                                    </div>
+                                    <div id="right-three-chart" style="height: 332px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/echarts_map_2.0.js"></script>
+        <script>
+            var echarts2 = echarts;
+        </script>
+        <script src="js/echarts4.min.js"></script>
+        <script src="js/echarts-gl.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

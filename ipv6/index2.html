@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>NMgroup-Tsinghua-IPv6 Visualization</title>
+        <link rel="stylesheet" href="css/index2.css" />
+    </head>
+    <body>
+        <div class="nicescroll" style="height: 100%;">
+            <div class="m-screen-browse boxSizing">
+                <div class="header display-flex justify-content-space-between">
+                    <div class="header-cur-loc"><span>Position</span><span class="header-point">:</span><span>World</span></div>
+                    <div class="heaer-time"><span>Today</span><span class="header-point">:</span><span id="head-date"></span></div>
+                </div>
+                <div class="m-main display-flex justify-content-space-between relative" style="display: table;width: 100%;">
+                    <div class="m-left">
+                        <div class="m-left-1 boxSizing main-left-padding">
+                            <div class="tilte-bg-color marginBottom14">
+                                <div class="m-title">
+                                    <div class="title-name"><i></i><span>New Addresses Found Per Day</span></div>
+                                </div>
+                            </div>
+                            <div class="left-1-main padding2 boxSizing bgborder">
+                                <div class="transparent-bg boxSizing">
+                                    <div class="total-time relative display-flex justify-content-left align-items-center marginLeft40 marginRight40">
+                                        <span class="arrow"></span>
+                                        <span class="m-date-left" id="date-left"></span>
+                                        <span>, New Addresses Found</span>
+                                        <span id="total-left" class="total-txt paddingLeft10"></span>
+                                    </div>
+                                    <div id="left-one-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-left-2 boxSizing main-left-padding">
+                            <div class="tilte-bg-color marginBottom14">
+                                <div class="m-title">
+                                    <div class="title-name"><i></i><span>Comparison of Addresses in Each Country</span></div>
+                                </div>
+                            </div>
+                            <div class="left-2-main boxSizing paddingLeft30 bgborder">
+                                <div id="left-two-chart"></div>
+                            </div>
+                        </div>
+                        <div class="search marginTop53 display-flex justify-content-space-between">
+                            <input class="search-input boxSizing" type="text" placeholder="Search Domain,IP,Host..." />
+                            <div class="search-input-icon"></div>
+                        </div>
+                        <div id="midScroll" class="scroll-new boxSizing color-gree">
+                            <ul style="position: absolute;width: 100%;"></ul>
+                        </div>
+                        <div class="m-right-3">
+                            <div class="right-tilte-bg-color marginBottom14">
+                                <div class="m-title">
+                                    <div class="title-name"><i></i><span>IPv6 Address Distribution in BGP Prefixes</span></div>
+                                </div>
+                            </div>
+                            <div class="right-3-main padding2 boxSizing relative bgborder">
+                                <div class="transparent-bg right3-bg">
+                                    <div class="display-flex justify-content-flex-end relative paddingRight40 paddingLeft40 boxSizing">
+                                        <div id="page-upper" class="arrow-upper page-bg"><i></i></div>
+                                        <div id="page-next" class="arrow-next page-bg"><i></i></div>
+                                    </div>
+                                    <div id="right-three-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-middle relative">
+                        <div id="center-middle-list" class="m-icon-tab display-flex">
+                            <div id="refresh" class="refresh marginRight20" style="border: 1px solid #6e7b8c;"></div>
+                            <div id="3dmap" class="map-icon" res="3d" style="border-right:0;"></div>
+                            <div id="worldmap" res="world" class="three-icon current"></div>
+                        </div>
+                        <div class="middle-tile">
+                            <div class="total-flex display-flex justify-content-space-between align-items-center">
+                                <div class="total-list">
+                                    <p id="activeTotal" class="total-1 mid-total-bg">159,181,451</p>
+                                    <p class="mid-total-txt color-gree boxSizing">Number of Active IPv6 Addresses</p>
+                                </div>
+                                <div class="total-list">
+                                    <p id="total" class="total-2 mid-total-bg">1,953,589,329</p>
+                                    <p class="mid-total-txt color-gree boxSizing">Number of IPv6 Addresses</p>
+                                </div>
+                                <div class="total-list">
+                                    <p id="todayTotal" class="total-3 mid-total-bg">1,149,650</p>
+                                    <p class="mid-total-txt color-gree boxSizing">Number of Addresses Found Today</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="map-chart" style="width: 100%;"></div>
+                        
+                    </div>
+                    <div class="m-right relative">
+                        <div class="m-right-1 paddingRight47">
+                            <div class="right-tilte-bg-color marginBottom30">
+                                <div class="m-title">
+                                    <div class="title-name"><i></i><span>Comparison of Active Addresses Each Country</span></div>
+                                </div>
+                            </div>
+                            <div class="right-1-main boxSizing bgborder" style="padding-top: 0">
+                                <div class="marginRight40 marginLeft40">
+                                    <div id='selectList' class="total-time relative display-table boxSizing">
+                                        
+                                    </div>
+                                </div>
+                                <div id="right-one-chart"></div>
+                            </div>
+                        </div>
+                        <div class="paddingRight47 marginTop80">
+                            <div class="right-tilte-bg-color marginBottom14">
+                                <div class="m-title">
+                                    <div class="title-name"><i></i><span>IPv6 Address Distribution in ASes</span></div>
+                                </div>
+                            </div>
+                            <div class="right-2-main padding2 boxSizing bgborder">
+                                <div class="transparent-bg">
+                                    <div class="marginRight40 marginLeft40">
+                                        <div id="right-2-select" class="total-time relative boxSizing display-table">
+                                            <div class="select-searchbox boxSizing relative all-select-btn" style="width: 100px;">
+                                                <div id="as-select" class="smallSquare display-flex justify-content-space-between align-items-center">
+                                                    <i></i>
+                                                    <span>others...</span>
+                                                    <span class="arrow-bottom"></span>
+                                                </div>
+                                                <div id="as-selectbox" class="selectbox" style="width: 100px;">
+                                                    <ul class="nicescroll"></ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="right-two-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/echarts_map_2.0.js"></script>
+        <script>
+            var echarts2 = echarts;
+        </script>
+        <script src="js/echarts4.min.js"></script>
+        <script src="js/echarts-gl.min.js"></script>
+        <script src="js/index2.js"></script>
+    </body>
+</html>
