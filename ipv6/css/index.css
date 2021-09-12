@@ -127,7 +127,7 @@ p,ul,li{
 }
 
 .header{
-    background: url(../IPv6Project/images/title.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/title.png) no-repeat center;
     height: 75px;
     margin-bottom: 89px;
     color: #29e874;
@@ -165,7 +165,7 @@ p,ul,li{
 
 .threed-m-right{
     margin-top: 45px;
-    background: url(../IPv6Project/images/3d-right-bg.png) no-repeat right top;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-right-bg.png) no-repeat right top;
 }
 
 .m-middle{
@@ -182,11 +182,11 @@ p,ul,li{
 
 .m-left-1{
     height: 568px;
-    background: url(../IPv6Project/images/m-left-1.png) no-repeat left;
+    background: url(https://zebornduan.github.io/IPv6Project/images/m-left-1.png) no-repeat left;
 }
 
 .threed-m-left-1{
-    background: url(../IPv6Project/images/3d-m-left-1.png) no-repeat left;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-m-left-1.png) no-repeat left;
     height: 458px;
 }
 
@@ -198,14 +198,14 @@ p,ul,li{
 
 .tilte-bg-color{
     width: 100%;
-    background: url(../IPv6Project/images/title-bar.png) no-repeat right bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/title-bar.png) no-repeat right bottom;
     position: relative;
     top: -3px;
 }
 
 .right-tilte-bg-color{
     width: 100%;
-    background: url(../IPv6Project/images/title-bar.png) no-repeat right bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/title-bar.png) no-repeat right bottom;
 }
 
 .title-name{
@@ -230,12 +230,12 @@ p,ul,li{
 .left-1-main{
     height: 511px;
     width: 100%;
-    background: url(../IPv6Project/images/left1-bg.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/left1-bg.png) no-repeat center;
     padding: 3px 3px 5px 2px;
 }
 
 .total-time{
-    background: url(../IPv6Project/images/boder-title.png) no-repeat left bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/boder-title.png) no-repeat left bottom;
     color: #fff;
     padding-bottom: 25px;
     font-size: 18px;
@@ -265,7 +265,7 @@ p,ul,li{
 }
 
 .m-left-2{
-    background: url(../IPv6Project/images/m-left-2.png) no-repeat left;
+    background: url(https://zebornduan.github.io/IPv6Project/images/m-left-2.png) no-repeat left;
     height:961px;
     padding-left: 47px;
     width: 100%;
@@ -278,11 +278,11 @@ p,ul,li{
 }
 
 .left-2-main{
-    background: #181824 url(../IPv6Project/images/left2-bg.png) no-repeat center;
+    background: #181824 url(https://zebornduan.github.io/IPv6Project/images/left2-bg.png) no-repeat center;
 }
 
 .threed-left-2-main{
-    background: #181824 url(../IPv6Project/images/3d-left-2-bg.png) no-repeat center top;
+    background: #181824 url(https://zebornduan.github.io/IPv6Project/images/3d-left-2-bg.png) no-repeat center top;
 }
 
 .search{
@@ -305,14 +305,14 @@ p,ul,li{
 }
 
 .m-right-1{
-    background: url(../IPv6Project/images/m-right-1.png) no-repeat top right;
+    background: url(https://zebornduan.github.io/IPv6Project/images/m-right-1.png) no-repeat top right;
     height:619px;
 }
 
 .right-1-main{
     height: 546px;
     width: 100%;
-    border-image-source: url(../IPv6Project/images/left1-bg.png);
+    border-image-source: url(https://zebornduan.github.io/IPv6Project/images/left1-bg.png);
     background-clip: border-box;
     border-style: solid;
     border-image-slice: 20 0 20 0 fill;
@@ -321,12 +321,12 @@ p,ul,li{
 }
 
 .threed-right-1-main{
-    background: url(../IPv6Project/images/3d-right-1-bg.png) no-repeat top right;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-right-1-bg.png) no-repeat top right;
     height: 365px;
 }
 
 .right-2-main{
-    background: url(../IPv6Project/images/right2-bg.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/right2-bg.png) no-repeat center;
     height: 421px;
 }
 
@@ -338,24 +338,24 @@ p,ul,li{
 }
 
 .right-3-main{
-    background:url(../IPv6Project/images/right3-bg.png) no-repeat center;
+    background:url(https://zebornduan.github.io/IPv6Project/images/right3-bg.png) no-repeat center;
     height:421px;
 }
 
 .threed-right-3-main{
-    background:url(../IPv6Project/images/3d-right-3-bg.png) no-repeat center;
+    background:url(https://zebornduan.github.io/IPv6Project/images/3d-right-3-bg.png) no-repeat center;
     width:883px;
     height: 712px;
     padding: 20px 58px;
 }
 
 .threed-right-2-main{
-    background: url(../IPv6Project/images/3d-right-2-bg.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-right-2-bg.png) no-repeat center;
     height: 401px;
 }
 
 .middle-tile{
-    background: url(../IPv6Project/images/middle-tille.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/middle-tille.png) no-repeat center;
     height: 229px;
     width: 100%;
     max-width: 1686px;
@@ -384,7 +384,7 @@ p,ul,li{
 }
 
 .mid-total-bg{
-    background: #181824 url(../IPv6Project/images/total-bg.png) no-repeat center;
+    background: #181824 url(https://zebornduan.github.io/IPv6Project/images/total-bg.png) no-repeat center;
     width: 381px;
     height: 86px;
     line-height: 86px;
@@ -418,7 +418,7 @@ p,ul,li{
     margin-right: 9px;
 }
 .check-defalut.current i{
-    background: url(../IPv6Project/images/check-defalut.png) no-repeat left center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/check-defalut.png) no-repeat left center;
     width: 12px;
     height: 9px;
     display: inline-block;
@@ -503,7 +503,7 @@ p,ul,li{
 }
 
 .search-input-icon{
-    background: url(../IPv6Project/images/search-glass-icon.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/search-glass-icon.png) no-repeat center;
     width: 82px;
     height: 71px;
     border-left: 1px solid #262639;
@@ -518,27 +518,27 @@ p,ul,li{
 
 .m-icon-tab>div.three-icon.current{
     border: 1px solid #15f1c1;
-    background: url(../IPv6Project/images/three-icon-hover.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/three-icon-hover.png) no-repeat center;
 }
 
 .m-icon-tab>div.map-icon.current{
   border: 1px solid #15f1c1;
-  background: url(../IPv6Project/images/map-icon-hover.png) no-repeat center;
+  background: url(https://zebornduan.github.io/IPv6Project/images/map-icon-hover.png) no-repeat center;
 }
 
 .refresh{
-    background: url(../IPv6Project/images/refresh.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/refresh.png) no-repeat center;
 }
 .refresh:hover{
-    background: url(../IPv6Project/images/refresh-hover.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/refresh-hover.png) no-repeat center;
     border: 1px solid #15f1c1;
 }
 .map-icon{
-    background: url(../IPv6Project/images/map-icon.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/map-icon.png) no-repeat center;
 }
 
 .three-icon{
-    background: url(../IPv6Project/images/three-icon.png) no-repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/three-icon.png) no-repeat center;
 }
 
 .m-icon-tab{
@@ -560,7 +560,7 @@ p,ul,li{
 .scroll-new{
     height: 71px;
     width: 1433px;
-    background: url(../IPv6Project/images/scroll-new-bg.png) no-repeat bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/scroll-new-bg.png) no-repeat bottom;
     position: absolute;
     bottom: 0px;
     left: 460px;
@@ -573,7 +573,7 @@ p,ul,li{
 .transparent-bg{
     width: 100%;
     height: 100%;
-    background: url(../IPv6Project/images/transparent-bg.png) repeat center;
+    background: url(https://zebornduan.github.io/IPv6Project/images/transparent-bg.png) repeat center;
 }
 
 .right-three-pie{
@@ -588,16 +588,16 @@ p,ul,li{
 }
 
 .threed-left-1-mian{
-    background: url(../IPv6Project/images/3d-left-1-mian.png) no-repeat left bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-left-1-mian.png) no-repeat left bottom;
     height:401px;
 }
 
 .threed-line{
-    background: url(../IPv6Project/images/3d-line-bottom.png) no-repeat left bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-line-bottom.png) no-repeat left bottom;
 }
 
 .threed-line-1{
-    background: url(../IPv6Project/images/3d-line-1.png) no-repeat left bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-line-1.png) no-repeat left bottom;
 }
 
 .m-date-left{
@@ -606,7 +606,7 @@ p,ul,li{
 }
 
 .threed-map-tip{
-    background: url(../IPv6Project/images/3d-map-bg.png) no-repeat left bottom;
+    background: url(https://zebornduan.github.io/IPv6Project/images/3d-map-bg.png) no-repeat left bottom;
     width: 259px;
     height: 116px;
     padding: 10px;
